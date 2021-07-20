@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './App.css';
+import './Counter.css';
 
-class App extends Component {
+class Counter extends Component {
   state = {
     num: 0,
   };
@@ -16,8 +16,8 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
-        <div className="counter">
+      <div className="counter">
+        <div className="counter-box">
           <h1 className="title">Let's count!</h1>
           <div className="num">{this.state.num}</div>
           <div className="buttons">
@@ -30,4 +30,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Counter;

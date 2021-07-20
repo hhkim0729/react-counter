@@ -1,4 +1,4 @@
-.App {
+.counter {
   height: 100%;
   display: flex;
   align-items: center;
@@ -7,7 +7,7 @@
   text-align: center;
 }
 
-.counter {
+.counter-box {
   width: 300px;
   height: 300px;
   border-radius: 150px;
